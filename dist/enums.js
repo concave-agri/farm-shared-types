@@ -1,7 +1,7 @@
 "use strict";
 exports.__esModule = true;
-exports.WINTER = exports.SUMMER = exports.RABI = exports.KHARIF = exports.LEASED = exports.SELFOWNERSHIP = exports.INCH = exports.CENTIMETRE = exports.METRE = exports.POUND = exports.KILOGRAM = exports.GRAM = exports.JAREB = exports.ATHAAS = exports.QILA = exports.LAT = exports.HECTARE = exports.BEGA = exports.MARLA = exports.BISWA = exports.MURABBA = exports.KANAL = exports.ACRE = exports.UserProfileGracePeriod = exports.UserProfilePremiumStatus = exports.PotentialLeadCategory = exports.QuerySource = exports.QueriesSpecifications = exports.UserConcern = exports.MessageType = exports.CallQueryStatus = exports.CallQueryPurpose = exports.ProductsType = exports.RecordState = exports.UserType = exports.CallType = exports.DatasetStatus = exports.Banks = exports.Wallets = exports.SalaryDuration = exports.MobileNetworks = exports.FileType = exports.SystemUserType = exports.Role = exports.knowledgeBaseType = exports.CalendarStatusType = exports.CalendarUIOptionType = exports.CalendarNotificationType = exports.NotificationType = exports.HttpVerbs = void 0;
-exports.FEMALE = exports.MALE = exports.SoilType = exports.IRRIGATIONMETHOD = exports.RAINFED = exports.IRRIGATED = void 0;
+exports.SUMMER = exports.RABI = exports.KHARIF = exports.LEASED = exports.SELFOWNERSHIP = exports.INCH = exports.CENTIMETRE = exports.METRE = exports.POUND = exports.KILOGRAM = exports.GRAM = exports.JAREB = exports.ATHAAS = exports.QILA = exports.LAT = exports.HECTARE = exports.BEGA = exports.MARLA = exports.BISWA = exports.MURABBA = exports.KANAL = exports.ACRE = exports.UserProfileGracePeriod = exports.UserProfilePremiumStatus = exports.PotentialLeadCategory = exports.QuerySource = exports.QueriesSpecifications = exports.UserConcern = exports.MessageType = exports.CallQueryStatus = exports.CallQueryPurpose = exports.ProductsType = exports.RecordState = exports.UserType = exports.CallType = exports.DatasetStatus = exports.Banks = exports.Wallets = exports.SalaryDuration = exports.MobileNetworks = exports.FileType = exports.SystemUserType = exports.Role = exports.knowledgeBaseType = exports.CalendarStatusType = exports.CalendarUIOptionType = exports.CalendarNotificationType = exports.NotificationType = exports.DomesticAnimal = exports.HttpVerbs = void 0;
+exports.FEMALE = exports.MALE = exports.SoilType = exports.IRRIGATIONMETHOD = exports.RAINFED = exports.IRRIGATED = exports.WINTER = void 0;
 var HttpVerbs;
 (function (HttpVerbs) {
     HttpVerbs["GET"] = "GET";
@@ -9,6 +9,28 @@ var HttpVerbs;
     HttpVerbs["PUT"] = "PUT";
     HttpVerbs["DELETE"] = "DELETE";
 })(HttpVerbs = exports.HttpVerbs || (exports.HttpVerbs = {}));
+var DomesticAnimal;
+(function (DomesticAnimal) {
+    DomesticAnimal["DOG"] = "dog";
+    DomesticAnimal["CAT"] = "cat";
+    DomesticAnimal["DONKEY"] = "donkey";
+    DomesticAnimal["BUFFALO"] = "buffalo";
+    DomesticAnimal["CHICKEN"] = "chicken";
+    DomesticAnimal["COW"] = "cow";
+    DomesticAnimal["RABBIT"] = "rabbit";
+    DomesticAnimal["SHEEP"] = "sheep";
+    DomesticAnimal["GOAT"] = "goat";
+    DomesticAnimal["HORSE"] = "horse";
+    DomesticAnimal["PIG"] = "pig";
+    DomesticAnimal["DUCK"] = "duck";
+    DomesticAnimal["TURKEY"] = "turkey";
+    DomesticAnimal["GUINEA_PIG"] = "guinea pig";
+    DomesticAnimal["HAMSTER"] = "hamster";
+    DomesticAnimal["MOUSE"] = "mouse";
+    DomesticAnimal["RAT"] = "rat";
+    DomesticAnimal["GERBIL"] = "gerbil";
+    DomesticAnimal["FERRET"] = "ferret";
+})(DomesticAnimal = exports.DomesticAnimal || (exports.DomesticAnimal = {}));
 var NotificationType;
 (function (NotificationType) {
     NotificationType["CALENDAR"] = "Crop Calendar";
