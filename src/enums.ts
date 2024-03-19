@@ -4,6 +4,27 @@ export enum HttpVerbs {
   PUT = 'PUT',
   DELETE = 'DELETE',
 }
+export enum DomesticAnimal {
+  DOG = 'dog',
+  CAT = 'cat',
+  DONKEY = 'donkey',
+  BUFFALO = 'buffalo',
+  CHICKEN = 'chicken',
+  COW = 'cow',
+  RABBIT = 'rabbit',
+  SHEEP = 'sheep',
+  GOAT = 'goat',
+  HORSE = 'horse',
+  PIG = 'pig',
+  DUCK = 'duck',
+  TURKEY = 'turkey',
+  GUINEA_PIG = 'guinea pig',
+  HAMSTER = 'hamster',
+  MOUSE = 'mouse',
+  RAT = 'rat',
+  GERBIL = 'gerbil',
+  FERRET = 'ferret',
+}
 
 export enum NotificationType {
   CALENDAR = 'Crop Calendar',
