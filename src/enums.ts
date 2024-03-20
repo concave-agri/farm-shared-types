@@ -374,3 +374,31 @@ export enum FEMALE {
   en = 'Female',
   ur = 'عورت',
 }
+
+export enum SEX {
+  MALE ='male',
+  FEMALE = 'female',
+}
+
+export enum STATUS {
+  ACTIVE = 'active',
+  INACTIVE = 'inactive',  
+}
+
+export enum AGEUNIT{
+  DAYS="days",
+  WEEKS="weeks",
+  MONTHS="months",
+  YEARS="years",
+}
+
+export enum ANIMALOWNERSHIP {
+  RAISED = 'Raised',
+  PURCHASED= 'Purchased',
+}
+
+export enum WEIGHTUNIT {
+    GRAMS = 'grams',
+    KILOGRAMS = 'kilograms',
+}
+

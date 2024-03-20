@@ -336,3 +336,25 @@ export declare enum FEMALE {
     en = "Female",
     ur = "\u0639\u0648\u0631\u062A"
 }
+export declare enum SEX {
+    MALE = "male",
+    FEMALE = "female"
+}
+export declare enum STATUS {
+    ACTIVE = "active",
+    INACTIVE = "inactive"
+}
+export declare enum AGEUNIT {
+    DAYS = "days",
+    WEEKS = "weeks",
+    MONTHS = "months",
+    YEARS = "years"
+}
+export declare enum ANIMALOWNERSHIP {
+    RAISED = "Raised",
+    PURCHASED = "Purchased"
+}
+export declare enum WEIGHTUNIT {
+    GRAMS = "grams",
+    KILOGRAMS = "kilograms"
+}
