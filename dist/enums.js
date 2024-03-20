@@ -1,7 +1,7 @@
 "use strict";
 exports.__esModule = true;
 exports.SUMMER = exports.RABI = exports.KHARIF = exports.LEASED = exports.SELFOWNERSHIP = exports.INCH = exports.CENTIMETRE = exports.METRE = exports.POUND = exports.KILOGRAM = exports.GRAM = exports.JAREB = exports.ATHAAS = exports.QILA = exports.LAT = exports.HECTARE = exports.BEGA = exports.MARLA = exports.BISWA = exports.MURABBA = exports.KANAL = exports.ACRE = exports.UserProfileGracePeriod = exports.UserProfilePremiumStatus = exports.PotentialLeadCategory = exports.QuerySource = exports.QueriesSpecifications = exports.UserConcern = exports.MessageType = exports.CallQueryStatus = exports.CallQueryPurpose = exports.ProductsType = exports.RecordState = exports.UserType = exports.CallType = exports.DatasetStatus = exports.Banks = exports.Wallets = exports.SalaryDuration = exports.MobileNetworks = exports.FileType = exports.SystemUserType = exports.Role = exports.knowledgeBaseType = exports.CalendarStatusType = exports.CalendarUIOptionType = exports.CalendarNotificationType = exports.NotificationType = exports.DomesticAnimal = exports.HttpVerbs = void 0;
-exports.FEMALE = exports.MALE = exports.SoilType = exports.IRRIGATIONMETHOD = exports.RAINFED = exports.IRRIGATED = exports.WINTER = void 0;
+exports.WEIGHTUNIT = exports.ANIMALOWNERSHIP = exports.AGEUNIT = exports.STATUS = exports.SEX = exports.FEMALE = exports.MALE = exports.SoilType = exports.IRRIGATIONMETHOD = exports.RAINFED = exports.IRRIGATED = exports.WINTER = void 0;
 var HttpVerbs;
 (function (HttpVerbs) {
     HttpVerbs["GET"] = "GET";
@@ -403,3 +403,30 @@ var FEMALE;
     FEMALE["en"] = "Female";
     FEMALE["ur"] = "\u0639\u0648\u0631\u062A";
 })(FEMALE = exports.FEMALE || (exports.FEMALE = {}));
+var SEX;
+(function (SEX) {
+    SEX["MALE"] = "male";
+    SEX["FEMALE"] = "female";
+})(SEX = exports.SEX || (exports.SEX = {}));
+var STATUS;
+(function (STATUS) {
+    STATUS["ACTIVE"] = "active";
+    STATUS["INACTIVE"] = "inactive";
+})(STATUS = exports.STATUS || (exports.STATUS = {}));
+var AGEUNIT;
+(function (AGEUNIT) {
+    AGEUNIT["DAYS"] = "days";
+    AGEUNIT["WEEKS"] = "weeks";
+    AGEUNIT["MONTHS"] = "months";
+    AGEUNIT["YEARS"] = "years";
+})(AGEUNIT = exports.AGEUNIT || (exports.AGEUNIT = {}));
+var ANIMALOWNERSHIP;
+(function (ANIMALOWNERSHIP) {
+    ANIMALOWNERSHIP["RAISED"] = "Raised";
+    ANIMALOWNERSHIP["PURCHASED"] = "Purchased";
+})(ANIMALOWNERSHIP = exports.ANIMALOWNERSHIP || (exports.ANIMALOWNERSHIP = {}));
+var WEIGHTUNIT;
+(function (WEIGHTUNIT) {
+    WEIGHTUNIT["GRAMS"] = "grams";
+    WEIGHTUNIT["KILOGRAMS"] = "kilograms";
+})(WEIGHTUNIT = exports.WEIGHTUNIT || (exports.WEIGHTUNIT = {}));
