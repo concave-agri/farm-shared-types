@@ -358,3 +358,6 @@ export declare enum WEIGHTUNIT {
     GRAMS = "grams",
     KILOGRAMS = "kilograms"
 }
+export declare enum DEMO {
+    TEST = "test"
+}
