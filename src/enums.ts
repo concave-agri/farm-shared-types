@@ -402,3 +402,6 @@ export enum WEIGHTUNIT {
     KILOGRAMS = 'kilograms',
 }
 
+export enum DEMO {
+  TEST ='test'
+}
